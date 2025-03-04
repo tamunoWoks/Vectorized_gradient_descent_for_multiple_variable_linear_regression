@@ -21,3 +21,7 @@ Here is a summary of some of the notation you will encounter, updated for multip
 | **General Notation** | **Description** | **Python (If applicable)** |
 |----------------------|-----------------|----------------------------|
 | *a* | scalar, non bold | |
+| **a** | vector, bold | |
+| **A** | matrix, bold capital | |
+| **REGRESSION** | | |
+
