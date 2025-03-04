@@ -11,12 +11,12 @@ This notebook focuses on solving a linear regression problem with multiple featu
 The notebook is designed for educational purposes, and is suitable for beginners, and anyone interested in understanding the fundamentals of gradient descent and linear regression.
 ### Notebook Structure
 The notebook is organized into the following sections:
-- **Libraries:** Imports necessary Python libraries such as numpy, matplotlib, and custom styles for plotting.
-- **Data Preparation:** Defines the training data (X_train and y_train) for a linear regression problem with multiple features.
-- **Model Initialization:** Initializes the model parameters (weights w and bias b).
+- **Libraries:** Imports necessary Python libraries such as `numpy`, `matplotlib`, and custom styles for plotting.
+- **Data Preparation:** Defines the training data (`X_train` and `y_train`) for a linear regression problem with multiple features.
+- **Model Initialization:** Initializes the model parameters (weights `w` and bias `b`).
 - **Prediction Functions:**
-    - Implements an element-wise prediction function (predict_single_loop).
-    - Implements a vectorized prediction function (predict) for efficient computation.
+    - Implements an element-wise prediction function (`predict_single_loop`).
+    - Implements a vectorized prediction function (`predict`) for efficient computation.
 - **Cost Function:** Computes the cost (mean squared error) for the linear regression model.
 - **Gradient Calculation:** Calculates the gradients for the weights and bias using vectorized operations.
 - **Gradient Descent:** Performs gradient descent to optimize the model parameters and minimize the cost function.
@@ -29,9 +29,9 @@ The notebook is organized into the following sections:
 - Cost/Loss Function
 ### Dependencies
 The notebook requires the following Python libraries:
-- numpy: For numerical computations and vectorized operations.
-- matplotlib: For plotting and visualization.
-- math: For mathematical operations.
+- `numpy`: For numerical computations and vectorized operations.
+- `matplotlib`: For plotting and visualization.
+- `math`: For mathematical operations.
 ### Results and Observations
 - he notebook demonstrates the implementation of gradient descent for linear regression with multiple variables.
 - The cost function decreases over iterations, indicating that the algorithm is converging.
