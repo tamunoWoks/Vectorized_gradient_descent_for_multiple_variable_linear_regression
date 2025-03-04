@@ -22,3 +22,8 @@ The notebook is organized into the following sections:
 - **Gradient Descent:** Performs gradient descent to optimize the model parameters and minimize the cost function.
 - **Visualization:** Plots the cost versus iteration to monitor the convergence of the algorithm.
 - **Observations:** Discusses the results and potential improvements.
+### Key Concepts
+- Linear Regression
+- Gradient Descent
+- Vectorization
+- Cost/Loss Function
