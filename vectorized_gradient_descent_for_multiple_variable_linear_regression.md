@@ -26,4 +26,4 @@ Here is a summary of some of the notation you will encounter, updated for multip
 | **REGRESSION** | | |
 | **X** | training example matrix | X_train |
 | **y** | training example targets | y_train |
-
+| **x**<sup>(i)</sup>, **y**<sup>(i)</sup> | **i**<sub>th</sub>Training Example | X[i}, y[i] |
