@@ -127,3 +127,35 @@ x_vec shape (4,), x_vec value: [2104    5    1   45]
 f_wb shape (), prediction: 459.9999976194083  
 
 **Note:** The shape of x_vec is a 1-D NumPy vector with 4 elements, (4,). The result, f_wb is a scalar.
+### Single Prediction, vector
+Noting that equation (1) above can be implemented using the dot product as in (2) above. We can make use of vector operations to speed up predictions.  
+- The NumPy `np.dot()` can be used to perform a vector dot product.
+```python
+def predict(x, w, b): 
+    """
+    single predict using linear regression
+    Args:
+      x (ndarray): Shape (n,) example with multiple features
+      w (ndarray): Shape (n,) model parameters   
+      b (scalar):             model parameter 
+      
+    Returns:
+      p (scalar):  prediction
+    """
+    p = np.dot(x, w) + b     
+    return p    
+```
+```python
+# get a row from our training data
+x_vec = X_train[0,:]
+print(f"x_vec shape {x_vec.shape}, x_vec value: {x_vec}")
+
+# make a prediction
+f_wb = predict(x_vec,w_init, b_init)
+print(f"f_wb shape {f_wb.shape}, prediction: {f_wb}")
+```
+**Output:**  
+x_vec shape (4,), x_vec value: [2104    5    1   45]  
+f_wb shape (), prediction: 459.99999761940825  
+
+The results and shapes are the same as the previous version which used looping. Going forward, `np.dot` will be used for these operations. The prediction is now a single statement. Most routines will implement it directly rather than calling a separate predict routine.
