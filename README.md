@@ -47,3 +47,5 @@ The notebook requires the following Python libraries:
     - Add regularization terms (e.g., L1 or L2) to prevent overfitting.
 - **Real-World Dataset:**
     - Apply the algorithm to a real-world dataset to evaluate its performance in a practical scenario.
+### License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for educational or personal purposes.
