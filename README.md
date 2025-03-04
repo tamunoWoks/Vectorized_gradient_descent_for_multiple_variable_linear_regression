@@ -32,3 +32,7 @@ The notebook requires the following Python libraries:
 - numpy: For numerical computations and vectorized operations.
 - matplotlib: For plotting and visualization.
 - math: For mathematical operations.
+### Results and Observations
+- he notebook demonstrates the implementation of gradient descent for linear regression with multiple variables.
+- The cost function decreases over iterations, indicating that the algorithm is converging.
+- However, the predictions are not highly accurate, suggesting that further tuning of hyperparameters (e.g., learning rate, number of iterations) or feature scaling may be required.
