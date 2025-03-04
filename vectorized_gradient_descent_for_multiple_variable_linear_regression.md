@@ -26,4 +26,10 @@ Here is a summary of some of the notation you will encounter, updated for multip
 | **REGRESSION** | | |
 | **X** | training example matrix | X_train |
 | **y** | training example targets | y_train |
-| **x**<sup>(i)</sup>, ***y***<sup>(i)</sup> | ***i***<sub>th</sub>Training Example | X[i}, y[i] |
+| **x**<sup>(i)</sup>, ***y***<sup>(i)</sup> | ***i***<sub>th</sub>Training Example | X[i], y[i] |
+| m | number of training example | `m` |
+| n | number of training example | `n` |
+| **w** | parameter: weight, | `w` |
+| *b* | parameter: bias | `b` |
+| *𝑓*<sub>𝐰,𝑏</sub>(**𝐱**<sup>(𝑖)</sup>) | The result of the model evaluation at  𝐱<sup>(𝐢)</sup> parameterized by 𝐰,𝑏: *𝑓*<sub>𝐰,𝑏</sub>(𝐱<sup>(𝑖)</sup>)=𝐰⋅𝐱(<sup>(𝑖)</sup>)+𝑏 | `f_wb` |
+ 	
