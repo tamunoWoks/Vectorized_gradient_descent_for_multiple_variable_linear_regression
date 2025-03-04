@@ -51,9 +51,7 @@ y_train = np.array([460, 232, 178])
 Similar to the table above, examples are stored in a NumPy matrix `X_train`. Each row of the matrix represents one example. When you have 𝑚 training examples ( 𝑚 is three in our example), and there are 𝑛 features (four in our example), 𝐗 is a matrix with dimensions (**𝑚**, **𝑛**) (m rows, n columns).  
 
 notation:
-
-    - 𝐱<sup>(𝑖)</sup> is vector containing example i. 𝐱<sup>(𝑖)</sup> =(𝐱<sup>(𝑖)</sup><sub>0</sub>,𝐱<sup>(𝑖)</sup><sub>1</sub>,⋯,𝐱<sup>(𝑖)</sup><sub>𝑛−1</sub>)
-     
-    - 𝐱<sup>(𝑖)</sup><sub>j</sub> is element j in example i. The superscript in parenthesis indicates the example number while the subscript represents an element.  
+- 𝐱<sup>(𝑖)</sup> is vector containing example i. 𝐱<sup>(𝑖)</sup> =(𝐱<sup>(𝑖)</sup><sub>0</sub>,𝐱<sup>(𝑖)</sup><sub>1</sub>,⋯,𝐱<sup>(𝑖)</sup><sub>𝑛−1</sub>).  
+- 𝐱<sup>(𝑖)</sup><sub>j</sub> is element j in example i. The superscript in parenthesis indicates the example number while the subscript represents an element.  
 
 Display the input data.
