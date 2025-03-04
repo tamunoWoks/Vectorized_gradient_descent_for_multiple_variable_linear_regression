@@ -122,6 +122,8 @@ print(f"x_vec shape {x_vec.shape}, x_vec value: {x_vec}")
 f_wb = predict_single_loop(x_vec, w_init, b_init)
 print(f"f_wb shape {f_wb.shape}, prediction: {f_wb}")
 ```
-**Output:**
+**Output:**  
 x_vec shape (4,), x_vec value: [2104    5    1   45]  
-f_wb shape (), prediction: 459.9999976194083
+f_wb shape (), prediction: 459.9999976194083  
+
+**Note:** The shape of x_vec is a 1-D NumPy vector with 4 elements, (4,). The result, f_wb is a scalar.
