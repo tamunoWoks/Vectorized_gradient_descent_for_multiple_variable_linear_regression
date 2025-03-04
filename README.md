@@ -1,5 +1,5 @@
 ### Overview
-This notebook demonstrates the implementation of gradient descent for multiple variable linear regression using vectorized operations in Python. It covers the following key steps:
+This [notebook](https://github.com/tamunoWoks/Vectorized_gradient_descent_for_multiple_variable_linear_regression/blob/main/vectorized_gradient_descent_for_multiple_variable_linear_regression.ipynb) demonstrates the implementation of gradient descent for multiple variable linear regression using vectorized operations in Python. It covers the following key steps:
 - **Data Preparation:** Defines the training data (X_train and y_train) for a linear regression problem with multiple features.
 - **Model Initialization:** Initializes the model parameters (weights w and bias b).
 - **Prediction Functions:** Implements both element-wise and vectorized prediction functions.
