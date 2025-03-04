@@ -36,3 +36,14 @@ The notebook requires the following Python libraries:
 - he notebook demonstrates the implementation of gradient descent for linear regression with multiple variables.
 - The cost function decreases over iterations, indicating that the algorithm is converging.
 - However, the predictions are not highly accurate, suggesting that further tuning of hyperparameters (e.g., learning rate, number of iterations) or feature scaling may be required.
+### Future Improvements
+- **Feature Scaling:**
+    - Normalize or standardize the input features to improve the performance of gradient descent.
+- **Hyperparameter Tuning:**
+    - Experiment with different learning rates (α) and numbers of iterations to achieve better convergence.
+- **Advanced Optimization Algorithms:**
+    - Implement more advanced optimization algorithms such as Stochastic Gradient Descent (SGD) or Adam.
+- **Regularization:**
+    - Add regularization terms (e.g., L1 or L2) to prevent overfitting.
+- **Real-World Dataset:**
+    - Apply the algorithm to a real-world dataset to evaluate its performance in a practical scenario.
