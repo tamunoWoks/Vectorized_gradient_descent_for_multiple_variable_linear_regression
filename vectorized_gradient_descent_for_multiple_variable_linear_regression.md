@@ -44,3 +44,7 @@ We will use the housing price prediction example. The training dataset contains 
 We will build a linear regression model using these values so we can then predict the price for other houses. For example, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old.  
 
 Let's run the following code cell to create your `X_train` and `y_train` variables.
+```python
+X_train = np.array([[2104, 5, 1, 45], [1416, 3, 2, 40], [852, 2, 1, 35]])
+y_train = np.array([460, 232, 178])
+```
