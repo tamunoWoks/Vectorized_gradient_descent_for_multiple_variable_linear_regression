@@ -16,3 +16,8 @@ import matplotlib.pyplot as plt
 plt.style.use('./deeplearning.mplstyle')
 np.set_printoptions(precision=2)  # reduced display precision on numpy arrays
 ```
+#### Notation
+Here is a summary of some of the notation you will encounter, updated for multiple features.
+| **General Notation** | **Description** | **Python (If applicable)** |
+|----------------------|-----------------|----------------------------|
+| *a* | scalar, non bold | |
