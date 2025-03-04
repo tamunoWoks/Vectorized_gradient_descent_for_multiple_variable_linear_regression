@@ -55,3 +55,10 @@ notation:
 - 𝐱<sup>(𝑖)</sup><sub>j</sub> is element j in example i. The superscript in parenthesis indicates the example number while the subscript represents an element.  
 
 Display the input data.
+```python
+# data is stored in numpy array/matrix
+print(f"X Shape: {X_train.shape}, X Type:{type(X_train)})")
+print(X_train)
+print(f"y Shape: {y_train.shape}, y Type:{type(y_train)})")
+print(y_train)
+```
