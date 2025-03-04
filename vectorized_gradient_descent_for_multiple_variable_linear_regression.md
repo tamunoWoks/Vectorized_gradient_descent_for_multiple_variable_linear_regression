@@ -187,3 +187,42 @@ cost = compute_cost(X_train, y_train, w_init, b_init)
 print(f'Cost at optimal w : {cost}')
 ```
 **Output:**  Cost at optimal w : 1.5578904880036537e-12
+## Gradient Descent With Multiple Variables
+### Compute Gradient with Multiple Variables
+```python
+def compute_gradient(X, y, w, b): 
+    """
+    Computes the gradient for linear regression 
+    Args:
+      X (ndarray (m,n)): Data, m examples with n features
+      y (ndarray (m,)) : target values
+      w (ndarray (n,)) : model parameters  
+      b (scalar)       : model parameter
+      
+    Returns:
+      dj_dw (ndarray (n,)): The gradient of the cost w.r.t. the parameters w. 
+      dj_db (scalar):       The gradient of the cost w.r.t. the parameter b. 
+    """
+    m,n = X.shape           #(number of examples, number of features)
+    dj_dw = np.zeros((n,))
+    dj_db = 0.
+
+    for i in range(m):                             
+        err = (np.dot(X[i], w) + b) - y[i]   
+        for j in range(n):                         
+            dj_dw[j] = dj_dw[j] + err * X[i, j]    
+        dj_db = dj_db + err                        
+    dj_dw = dj_dw / m                                
+    dj_db = dj_db / m                                
+        
+    return dj_db, dj_dw
+```
+```python
+#Compute and display gradient 
+tmp_dj_db, tmp_dj_dw = compute_gradient(X_train, y_train, w_init, b_init)
+print(f'dj_db at initial w,b: {tmp_dj_db}')
+print(f'dj_dw at initial w,b: \n {tmp_dj_dw}')
+```
+**Output:**  
+dj_db at initial w,b: -1.673925169143331e-06  
+dj_dw at initial w,b: [-2.73e-03 -6.27e-06 -2.22e-06 -6.92e-05]
