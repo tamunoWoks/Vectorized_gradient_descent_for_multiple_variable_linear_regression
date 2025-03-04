@@ -70,7 +70,6 @@ X Shape: (3, 4), X Type:<class 'numpy.ndarray'>)
  [ 852    2    1   35]]  
 y Shape: (3,), y Type:<class 'numpy.ndarray'>)  
 [460 232 178]  
-`
 ### Parameter vector w, b
 - 𝐰 is a vector with *𝑛* elements.
     - Each element contains the parameter associated with one feature.
