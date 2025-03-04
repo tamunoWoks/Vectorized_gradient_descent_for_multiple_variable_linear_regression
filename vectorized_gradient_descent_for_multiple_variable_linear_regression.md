@@ -69,3 +69,11 @@ X Shape: (3, 4), X Type:<class 'numpy.ndarray'>)
  [ 852    2    1   35]]  
 y Shape: (3,), y Type:<class 'numpy.ndarray'>)  
 [460 232 178]  
+#### Parameter vector w, b
+- 𝐰 is a vector with *𝑛* elements.
+    - Each element contains the parameter associated with one feature.
+    - in our dataset, n is 4.
+    - notionally, we draw this as a column vector
+- *𝑏* is a scalar parameter.
+
+For demonstration, 𝐰 and 𝑏 will be loaded with some initial selected values that are near the optimal. 𝐰 is a 1-D NumPy vector.
