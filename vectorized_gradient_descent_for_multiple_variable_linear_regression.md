@@ -77,3 +77,9 @@ y Shape: (3,), y Type:<class 'numpy.ndarray'>)
 - *𝑏* is a scalar parameter.
 
 For demonstration, 𝐰 and 𝑏 will be loaded with some initial selected values that are near the optimal. 𝐰 is a 1-D NumPy vector.
+```python
+b_init = 785.1811367994083
+w_init = np.array([ 0.39133535, 18.75376741, -53.36032453, -26.42131618])
+print(f"w_init shape: {w_init.shape}, b_init type: {type(b_init)}")
+```
+**Output:** w_init shape: (4,), b_init type: <class 'float'>
