@@ -313,3 +313,4 @@ ax1.set_ylabel('Cost')             ;  ax2.set_ylabel('Cost')
 ax1.set_xlabel('iteration step')   ;  ax2.set_xlabel('iteration step') 
 plt.show()
 ```
+- These results are not inspiring! Cost is still declining and our predictions are not very accurate. We will explore how to improve on this.
