@@ -83,3 +83,11 @@ w_init = np.array([ 0.39133535, 18.75376741, -53.36032453, -26.42131618])
 print(f"w_init shape: {w_init.shape}, b_init type: {type(b_init)}")
 ```
 **Output:** w_init shape: (4,), b_init type: <class 'float'>
+### Model Prediction With Multiple Variables
+The model's prediction with multiple variables is given by the linear model:
+                    𝑓<sub>𝐰,𝑏</sub>(𝐱)=𝑤<sub>0</sub>𝑥<sub>0</sub>+𝑤<sub>1</sub>𝑥<sub>1</sub>+...+𝑤<sub>𝑛−1</sub>𝑥<sub>𝑛−1</sub>+𝑏                     (1)
+or in vector notation:
+                    𝑓<sub>𝐰,𝑏</sub>(𝐱)=𝐰⋅𝐱+𝑏(2)
+where  `⋅` is a vector dot product.  
+
+To demonstrate the dot product, we will implement prediction using (1) and (2).
