@@ -42,4 +42,5 @@ We will use the housing price prediction example. The training dataset contains 
 | 852             | 2                   | 1                | 35           | 178           |  
 
 We will build a linear regression model using these values so we can then predict the price for other houses. For example, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old.  
+
 Let's run the following code cell to create your `X_train` and `y_train` variables.
