@@ -5,3 +5,7 @@ In this project, we will implement the data structures and routines to support l
     - Implement data structures to support multiple features
     - Write prediction, cost and gradient routines to support multiple features
     - Utilize NumPy np.dot to vectorize their implementations for speed and simplicity
+#### Tools
+In this project, we will make use of:
+- NumPy, a popular library for scientific computing
+- Matplotlib, a popular library for plotting data
