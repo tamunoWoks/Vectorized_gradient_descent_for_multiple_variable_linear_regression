@@ -91,3 +91,37 @@ or in vector notation:
 where  `⋅` is a vector dot product.  
 
 To demonstrate the dot product, we will implement prediction using (1) and (2).
+### Single Prediction element by element
+```python
+def predict_single_loop(x, w, b): 
+    """
+    single predict using linear regression
+    
+    Args:
+      x (ndarray): Shape (n,) example with multiple features
+      w (ndarray): Shape (n,) model parameters    
+      b (scalar):  model parameter     
+      
+    Returns:
+      p (scalar):  prediction
+    """
+    n = x.shape[0]
+    p = 0
+    for i in range(n):
+        p_i = x[i] * w[i]  
+        p = p + p_i         
+    p = p + b                
+    return p
+```
+```python
+# get a row from our training data
+x_vec = X_train[0,:]
+print(f"x_vec shape {x_vec.shape}, x_vec value: {x_vec}")
+
+# make a prediction
+f_wb = predict_single_loop(x_vec, w_init, b_init)
+print(f"f_wb shape {f_wb.shape}, prediction: {f_wb}")
+```
+**Output:**
+x_vec shape (4,), x_vec value: [2104    5    1   45]  
+f_wb shape (), prediction: 459.9999976194083
