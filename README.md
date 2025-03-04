@@ -27,3 +27,8 @@ The notebook is organized into the following sections:
 - Gradient Descent
 - Vectorization
 - Cost/Loss Function
+### Dependencies
+The notebook requires the following Python libraries:
+- numpy: For numerical computations and vectorized operations.
+- matplotlib: For plotting and visualization.
+- math: For mathematical operations.
