@@ -1,7 +1,7 @@
 ## Vectorized Gradient Descent for Multiple Variable Linear Regression
-This repository contains a Jupyter notebook that demonstrates the implementation of gradient descent for multiple variable linear regression using vectorized operations in Python. The notebook provides a step-by-step guide to understanding and implementing gradient descent, a fundamental optimization algorithm in machine learning.
+This [repository](https://github.com/tamunoWoks/Vectorized_gradient_descent_for_multiple_variable_linear_regression) contains a Jupyter notebook that demonstrates the implementation of gradient descent for multiple variable linear regression using vectorized operations in Python. The notebook provides a step-by-step guide to understanding and implementing gradient descent, a fundamental optimization algorithm in machine learning.
 ### Overview
-This notebook focuses on solving a linear regression problem with multiple features using gradient descent. It demonstrates how to:
+This [notebook](https://github.com/tamunoWoks/Vectorized_gradient_descent_for_multiple_variable_linear_regression/blob/main/vectorized_gradient_descent_for_multiple_variable_linear_regression.ipynb) focuses on solving a linear regression problem with multiple features using gradient descent. It demonstrates how to:
 - Implement vectorized operations for efficient computation.
 - Compute the cost function (mean squared error).
 - Calculate gradients for model parameters (weights and bias).
