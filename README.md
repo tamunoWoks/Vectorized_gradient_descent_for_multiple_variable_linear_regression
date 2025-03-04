@@ -9,3 +9,16 @@ This notebook focuses on solving a linear regression problem with multiple featu
 - Visualize the convergence of the algorithm.  
 
 The notebook is designed for educational purposes, and is suitable for beginners, and anyone interested in understanding the fundamentals of gradient descent and linear regression.
+#### Notebook Structure
+The notebook is organized into the following sections:
+- **Libraries:** Imports necessary Python libraries such as numpy, matplotlib, and custom styles for plotting.
+- **Data Preparation:** Defines the training data (X_train and y_train) for a linear regression problem with multiple features.
+- **Model Initialization:** Initializes the model parameters (weights w and bias b).
+- **Prediction Functions:**
+    - Implements an element-wise prediction function (predict_single_loop).
+    - Implements a vectorized prediction function (predict) for efficient computation.
+- **Cost Function:** Computes the cost (mean squared error) for the linear regression model.
+- **Gradient Calculation:** Calculates the gradients for the weights and bias using vectorized operations.
+- **Gradient Descent:** Performs gradient descent to optimize the model parameters and minimize the cost function.
+- **Visualization:** Plots the cost versus iteration to monitor the convergence of the algorithm.
+- **Observations:** Discusses the results and potential improvements.
