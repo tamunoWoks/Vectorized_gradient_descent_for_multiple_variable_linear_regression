@@ -62,9 +62,10 @@ print(X_train)
 print(f"y Shape: {y_train.shape}, y Type:{type(y_train)})")
 print(y_train)
 ```
-**Output:** X Shape: (3, 4), X Type:<class 'numpy.ndarray'>)
-            [[2104    5    1   45]
-             [1416    3    2   40]
-             [ 852    2    1   35]]
-            y Shape: (3,), y Type:<class 'numpy.ndarray'>)
-            [460 232 178]
+**Output:**  
+X Shape: (3, 4), X Type:<class 'numpy.ndarray'>)  
+[[2104    5    1   45]  
+ [1416    3    2   40]  
+ [ 852    2    1   35]]  
+y Shape: (3,), y Type:<class 'numpy.ndarray'>)  
+[460 232 178]  
